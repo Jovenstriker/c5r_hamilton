@@ -1,0 +1,3865 @@
+{
+ "deck": {
+  "correction_curves": [
+   {
+    "tip_capacity_microliters": 60.0,
+    "points": [
+     [
+      0.0,
+      0.0
+     ],
+     [
+      20.0,
+      22.7
+     ],
+     [
+      30.0,
+      33.6
+     ],
+     [
+      50.0,
+      54.0
+     ]
+    ]
+   },
+   {
+    "tip_capacity_microliters": 1250.0,
+    "points": [
+     [
+      0.0,
+      0.0
+     ],
+     [
+      10.0,
+      13.3
+     ],
+     [
+      20.0,
+      24.6
+     ],
+     [
+      50.0,
+      57.2
+     ],
+     [
+      100.0,
+      109.6
+     ],
+     [
+      200.0,
+      212.9
+     ],
+     [
+      500.0,
+      521.7
+     ],
+     [
+      1000.0,
+      1034.0
+     ]
+    ]
+   }
+  ],
+  "carriers": [
+   {
+    "name": "plate_carrier",
+    "origin_mm": [
+     100.0,
+     63.0,
+     100.0
+    ],
+    "yaw_degrees": 0.0,
+    "size_mm": [
+     135.0,
+     497.0,
+     130.0
+    ],
+    "support_z_mm": 86.15,
+    "site_size_mm": [
+     127.0,
+     86.0
+    ],
+    "site_guides": [
+     {
+      "min": [
+       -3.6,
+       -4.0,
+       86.15
+      ],
+      "max": [
+       -1.75,
+       1.8,
+       91.5
+      ]
+     },
+     {
+      "min": [
+       -3.6,
+       17.0,
+       86.15
+      ],
+      "max": [
+       -1.75,
+       20.0,
+       91.5
+      ]
+     },
+     {
+      "min": [
+       -3.6,
+       66.0,
+       86.15
+      ],
+      "max": [
+       -1.75,
+       69.0,
+       91.5
+      ]
+     },
+     {
+      "min": [
+       -3.6,
+       84.2,
+       86.15
+      ],
+      "max": [
+       -1.75,
+       90.0,
+       91.5
+      ]
+     },
+     {
+      "min": [
+       -1.75,
+       -4.0,
+       86.15
+      ],
+      "max": [
+       2.25,
+       -2.25,
+       91.5
+      ]
+     },
+     {
+      "min": [
+       -1.75,
+       88.25,
+       86.15
+      ],
+      "max": [
+       2.25,
+       90.0,
+       91.5
+      ]
+     },
+     {
+      "min": [
+       17.4,
+       -4.0,
+       86.15
+      ],
+      "max": [
+       24.5,
+       -2.25,
+       91.5
+      ]
+     },
+     {
+      "min": [
+       17.4,
+       88.25,
+       86.15
+      ],
+      "max": [
+       24.5,
+       90.0,
+       91.5
+      ]
+     },
+     {
+      "min": [
+       102.5,
+       -4.0,
+       86.15
+      ],
+      "max": [
+       109.6,
+       -2.25,
+       91.5
+      ]
+     },
+     {
+      "min": [
+       102.5,
+       88.25,
+       86.15
+      ],
+      "max": [
+       109.6,
+       90.0,
+       91.5
+      ]
+     },
+     {
+      "min": [
+       124.75,
+       88.25,
+       86.15
+      ],
+      "max": [
+       128.75,
+       90.0,
+       91.5
+      ]
+     },
+     {
+      "min": [
+       124.75,
+       -4.0,
+       86.15
+      ],
+      "max": [
+       128.75,
+       -2.25,
+       91.5
+      ]
+     },
+     {
+      "min": [
+       128.75,
+       -4.0,
+       86.15
+      ],
+      "max": [
+       130.6,
+       1.8,
+       91.5
+      ]
+     },
+     {
+      "min": [
+       128.75,
+       17.0,
+       86.15
+      ],
+      "max": [
+       130.6,
+       20.0,
+       91.5
+      ]
+     },
+     {
+      "min": [
+       128.75,
+       66.0,
+       86.15
+      ],
+      "max": [
+       130.6,
+       69.0,
+       91.5
+      ]
+     },
+     {
+      "min": [
+       128.75,
+       84.2,
+       86.15
+      ],
+      "max": [
+       130.6,
+       90.0,
+       91.5
+      ]
+     },
+     {
+      "min": [
+       -3.6,
+       -4.0,
+       91.5
+      ],
+      "max": [
+       -1.75,
+       20.0,
+       95.5
+      ]
+     },
+     {
+      "min": [
+       -3.6,
+       66.0,
+       91.5
+      ],
+      "max": [
+       -1.75,
+       90.0,
+       95.5
+      ]
+     },
+     {
+      "min": [
+       -1.75,
+       -4.0,
+       91.5
+      ],
+      "max": [
+       24.5,
+       -2.25,
+       95.5
+      ]
+     },
+     {
+      "min": [
+       -1.75,
+       88.25,
+       91.5
+      ],
+      "max": [
+       24.5,
+       90.0,
+       95.5
+      ]
+     },
+     {
+      "min": [
+       102.5,
+       -4.0,
+       91.5
+      ],
+      "max": [
+       128.75,
+       -2.25,
+       95.5
+      ]
+     },
+     {
+      "min": [
+       102.5,
+       88.25,
+       91.5
+      ],
+      "max": [
+       128.75,
+       90.0,
+       95.5
+      ]
+     },
+     {
+      "min": [
+       128.75,
+       -4.0,
+       91.5
+      ],
+      "max": [
+       130.6,
+       20.0,
+       95.5
+      ]
+     },
+     {
+      "min": [
+       128.75,
+       66.0,
+       91.5
+      ],
+      "max": [
+       130.6,
+       90.0,
+       95.5
+      ]
+     }
+    ],
+    "rail": 1,
+    "rail_span": 6,
+    "state": "loaded"
+   },
+   {
+    "name": "tip_carrier",
+    "origin_mm": [
+     392.5,
+     63.0,
+     100.0
+    ],
+    "yaw_degrees": 0.0,
+    "size_mm": [
+     135.0,
+     497.0,
+     130.0
+    ],
+    "support_z_mm": 114.95,
+    "site_size_mm": [
+     122.4,
+     82.6
+    ],
+    "rail": 14,
+    "rail_span": 6,
+    "state": "loaded"
+   },
+   {
+    "name": "module_carrier",
+    "origin_mm": [
+     617.5,
+     63.0,
+     100.0
+    ],
+    "yaw_degrees": 0.0,
+    "size_mm": [
+     157.5,
+     497.0,
+     83.7
+    ],
+    "support_z_mm": 83.0,
+    "site_size_mm": [
+     127.0,
+     86.0
+    ],
+    "rail": 24,
+    "rail_span": 7,
+    "state": "loaded"
+   }
+  ],
+  "nests": [
+   {
+    "name": "plate_carrier/1",
+    "origin_mm": [
+     104.0,
+     71.5,
+     186.15
+    ],
+    "yaw_degrees": 0.0,
+    "carrier": "plate_carrier"
+   },
+   {
+    "name": "plate_carrier/2",
+    "origin_mm": [
+     104.0,
+     167.5,
+     186.15
+    ],
+    "yaw_degrees": 0.0,
+    "carrier": "plate_carrier"
+   },
+   {
+    "name": "plate_carrier/3",
+    "origin_mm": [
+     104.0,
+     263.5,
+     186.15
+    ],
+    "yaw_degrees": 0.0,
+    "carrier": "plate_carrier"
+   },
+   {
+    "name": "plate_carrier/4",
+    "origin_mm": [
+     104.0,
+     359.5,
+     186.15
+    ],
+    "yaw_degrees": 0.0,
+    "carrier": "plate_carrier"
+   },
+   {
+    "name": "plate_carrier/5",
+    "origin_mm": [
+     104.0,
+     455.5,
+     186.15
+    ],
+    "yaw_degrees": 0.0,
+    "carrier": "plate_carrier"
+   },
+   {
+    "name": "tip_carrier/1",
+    "origin_mm": [
+     398.7,
+     73.0,
+     214.95
+    ],
+    "yaw_degrees": 0.0,
+    "carrier": "tip_carrier"
+   },
+   {
+    "name": "tip_carrier/2",
+    "origin_mm": [
+     398.7,
+     169.0,
+     214.95
+    ],
+    "yaw_degrees": 0.0,
+    "carrier": "tip_carrier"
+   },
+   {
+    "name": "tip_carrier/3",
+    "origin_mm": [
+     398.7,
+     265.0,
+     214.95
+    ],
+    "yaw_degrees": 0.0,
+    "carrier": "tip_carrier"
+   },
+   {
+    "name": "tip_carrier/4",
+    "origin_mm": [
+     398.7,
+     361.0,
+     214.95
+    ],
+    "yaw_degrees": 0.0,
+    "carrier": "tip_carrier"
+   },
+   {
+    "name": "tip_carrier/5",
+    "origin_mm": [
+     398.7,
+     457.0,
+     214.95
+    ],
+    "yaw_degrees": 0.0,
+    "carrier": "tip_carrier"
+   },
+   {
+    "name": "module_carrier/1",
+    "origin_mm": [
+     631.75,
+     77.75,
+     183.0
+    ],
+    "yaw_degrees": 0.0,
+    "carrier": "module_carrier"
+   },
+   {
+    "name": "module_carrier/2",
+    "origin_mm": [
+     631.75,
+     197.75,
+     183.0
+    ],
+    "yaw_degrees": 0.0,
+    "carrier": "module_carrier"
+   },
+   {
+    "name": "module_carrier/3",
+    "origin_mm": [
+     631.75,
+     317.75,
+     183.0
+    ],
+    "yaw_degrees": 0.0,
+    "carrier": "module_carrier"
+   },
+   {
+    "name": "module_carrier/4",
+    "origin_mm": [
+     631.75,
+     437.75,
+     183.0
+    ],
+    "yaw_degrees": 0.0,
+    "carrier": "module_carrier"
+   },
+   {
+    "name": "24/1/adapter",
+    "origin_mm": [
+     633.16,
+     74.22,
+     195.0
+    ],
+    "yaw_degrees": 0.0
+   },
+   {
+    "name": "24/4/adapter/1",
+    "origin_mm": [
+     633.16,
+     437.22,
+     182.11
+    ],
+    "yaw_degrees": 0.0
+   },
+   {
+    "name": "24/3/adapter/1",
+    "origin_mm": [
+     633.16,
+     317.22,
+     182.11
+    ],
+    "yaw_degrees": 0.0
+   },
+   {
+    "name": "L1/1",
+    "origin_mm": [
+     -100.93,
+     323.46,
+     192.1
+    ],
+    "yaw_degrees": 0.0
+   },
+   {
+    "name": "magnet/1",
+    "origin_mm": [
+     104.08,
+     455.65,
+     214.3
+    ],
+    "yaw_degrees": 0.0,
+    "carrier": "plate_carrier"
+   }
+  ],
+  "plates": [
+   {
+    "name": "source",
+    "origin_mm": [
+     104.0,
+     71.5,
+     186.15
+    ],
+    "yaw_degrees": 0.0,
+    "size_mm": [
+     127.8,
+     85.7,
+     14.5
+    ],
+    "wells": [
+     {
+      "name": "A1",
+      "center_mm": [
+       14.3,
+       74.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-A1": 150.0
+      }
+     },
+     {
+      "name": "B1",
+      "center_mm": [
+       14.3,
+       65.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-B1": 150.0
+      }
+     },
+     {
+      "name": "C1",
+      "center_mm": [
+       14.3,
+       56.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-C1": 150.0
+      }
+     },
+     {
+      "name": "D1",
+      "center_mm": [
+       14.3,
+       47.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-D1": 150.0
+      }
+     },
+     {
+      "name": "E1",
+      "center_mm": [
+       14.3,
+       38.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-E1": 150.0
+      }
+     },
+     {
+      "name": "F1",
+      "center_mm": [
+       14.3,
+       29.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-F1": 150.0
+      }
+     },
+     {
+      "name": "G1",
+      "center_mm": [
+       14.3,
+       20.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-G1": 150.0
+      }
+     },
+     {
+      "name": "H1",
+      "center_mm": [
+       14.3,
+       11.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-H1": 150.0
+      }
+     },
+     {
+      "name": "A2",
+      "center_mm": [
+       23.3,
+       74.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-A2": 150.0
+      }
+     },
+     {
+      "name": "B2",
+      "center_mm": [
+       23.3,
+       65.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-B2": 150.0
+      }
+     },
+     {
+      "name": "C2",
+      "center_mm": [
+       23.3,
+       56.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-C2": 150.0
+      }
+     },
+     {
+      "name": "D2",
+      "center_mm": [
+       23.3,
+       47.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-D2": 150.0
+      }
+     },
+     {
+      "name": "E2",
+      "center_mm": [
+       23.3,
+       38.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-E2": 150.0
+      }
+     },
+     {
+      "name": "F2",
+      "center_mm": [
+       23.3,
+       29.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-F2": 150.0
+      }
+     },
+     {
+      "name": "G2",
+      "center_mm": [
+       23.3,
+       20.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-G2": 150.0
+      }
+     },
+     {
+      "name": "H2",
+      "center_mm": [
+       23.3,
+       11.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-H2": 150.0
+      }
+     },
+     {
+      "name": "A3",
+      "center_mm": [
+       32.3,
+       74.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-A3": 150.0
+      }
+     },
+     {
+      "name": "B3",
+      "center_mm": [
+       32.3,
+       65.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-B3": 150.0
+      }
+     },
+     {
+      "name": "C3",
+      "center_mm": [
+       32.3,
+       56.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-C3": 150.0
+      }
+     },
+     {
+      "name": "D3",
+      "center_mm": [
+       32.3,
+       47.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-D3": 150.0
+      }
+     },
+     {
+      "name": "E3",
+      "center_mm": [
+       32.3,
+       38.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-E3": 150.0
+      }
+     },
+     {
+      "name": "F3",
+      "center_mm": [
+       32.3,
+       29.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-F3": 150.0
+      }
+     },
+     {
+      "name": "G3",
+      "center_mm": [
+       32.3,
+       20.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-G3": 150.0
+      }
+     },
+     {
+      "name": "H3",
+      "center_mm": [
+       32.3,
+       11.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-H3": 150.0
+      }
+     },
+     {
+      "name": "A4",
+      "center_mm": [
+       41.3,
+       74.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-A4": 150.0
+      }
+     },
+     {
+      "name": "B4",
+      "center_mm": [
+       41.3,
+       65.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-B4": 150.0
+      }
+     },
+     {
+      "name": "C4",
+      "center_mm": [
+       41.3,
+       56.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-C4": 150.0
+      }
+     },
+     {
+      "name": "D4",
+      "center_mm": [
+       41.3,
+       47.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-D4": 150.0
+      }
+     },
+     {
+      "name": "E4",
+      "center_mm": [
+       41.3,
+       38.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-E4": 150.0
+      }
+     },
+     {
+      "name": "F4",
+      "center_mm": [
+       41.3,
+       29.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-F4": 150.0
+      }
+     },
+     {
+      "name": "G4",
+      "center_mm": [
+       41.3,
+       20.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-G4": 150.0
+      }
+     },
+     {
+      "name": "H4",
+      "center_mm": [
+       41.3,
+       11.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-H4": 150.0
+      }
+     },
+     {
+      "name": "A5",
+      "center_mm": [
+       50.3,
+       74.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-A5": 150.0
+      }
+     },
+     {
+      "name": "B5",
+      "center_mm": [
+       50.3,
+       65.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-B5": 150.0
+      }
+     },
+     {
+      "name": "C5",
+      "center_mm": [
+       50.3,
+       56.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-C5": 150.0
+      }
+     },
+     {
+      "name": "D5",
+      "center_mm": [
+       50.3,
+       47.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-D5": 150.0
+      }
+     },
+     {
+      "name": "E5",
+      "center_mm": [
+       50.3,
+       38.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-E5": 150.0
+      }
+     },
+     {
+      "name": "F5",
+      "center_mm": [
+       50.3,
+       29.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-F5": 150.0
+      }
+     },
+     {
+      "name": "G5",
+      "center_mm": [
+       50.3,
+       20.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-G5": 150.0
+      }
+     },
+     {
+      "name": "H5",
+      "center_mm": [
+       50.3,
+       11.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-H5": 150.0
+      }
+     },
+     {
+      "name": "A6",
+      "center_mm": [
+       59.3,
+       74.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-A6": 150.0
+      }
+     },
+     {
+      "name": "B6",
+      "center_mm": [
+       59.3,
+       65.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-B6": 150.0
+      }
+     },
+     {
+      "name": "C6",
+      "center_mm": [
+       59.3,
+       56.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-C6": 150.0
+      }
+     },
+     {
+      "name": "D6",
+      "center_mm": [
+       59.3,
+       47.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-D6": 150.0
+      }
+     },
+     {
+      "name": "E6",
+      "center_mm": [
+       59.3,
+       38.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-E6": 150.0
+      }
+     },
+     {
+      "name": "F6",
+      "center_mm": [
+       59.3,
+       29.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-F6": 150.0
+      }
+     },
+     {
+      "name": "G6",
+      "center_mm": [
+       59.3,
+       20.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-G6": 150.0
+      }
+     },
+     {
+      "name": "H6",
+      "center_mm": [
+       59.3,
+       11.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-H6": 150.0
+      }
+     },
+     {
+      "name": "A7",
+      "center_mm": [
+       68.3,
+       74.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-A7": 150.0
+      }
+     },
+     {
+      "name": "B7",
+      "center_mm": [
+       68.3,
+       65.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-B7": 150.0
+      }
+     },
+     {
+      "name": "C7",
+      "center_mm": [
+       68.3,
+       56.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-C7": 150.0
+      }
+     },
+     {
+      "name": "D7",
+      "center_mm": [
+       68.3,
+       47.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-D7": 150.0
+      }
+     },
+     {
+      "name": "E7",
+      "center_mm": [
+       68.3,
+       38.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-E7": 150.0
+      }
+     },
+     {
+      "name": "F7",
+      "center_mm": [
+       68.3,
+       29.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-F7": 150.0
+      }
+     },
+     {
+      "name": "G7",
+      "center_mm": [
+       68.3,
+       20.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-G7": 150.0
+      }
+     },
+     {
+      "name": "H7",
+      "center_mm": [
+       68.3,
+       11.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-H7": 150.0
+      }
+     },
+     {
+      "name": "A8",
+      "center_mm": [
+       77.3,
+       74.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-A8": 150.0
+      }
+     },
+     {
+      "name": "B8",
+      "center_mm": [
+       77.3,
+       65.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-B8": 150.0
+      }
+     },
+     {
+      "name": "C8",
+      "center_mm": [
+       77.3,
+       56.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-C8": 150.0
+      }
+     },
+     {
+      "name": "D8",
+      "center_mm": [
+       77.3,
+       47.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-D8": 150.0
+      }
+     },
+     {
+      "name": "E8",
+      "center_mm": [
+       77.3,
+       38.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-E8": 150.0
+      }
+     },
+     {
+      "name": "F8",
+      "center_mm": [
+       77.3,
+       29.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-F8": 150.0
+      }
+     },
+     {
+      "name": "G8",
+      "center_mm": [
+       77.3,
+       20.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-G8": 150.0
+      }
+     },
+     {
+      "name": "H8",
+      "center_mm": [
+       77.3,
+       11.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-H8": 150.0
+      }
+     },
+     {
+      "name": "A9",
+      "center_mm": [
+       86.3,
+       74.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-A9": 150.0
+      }
+     },
+     {
+      "name": "B9",
+      "center_mm": [
+       86.3,
+       65.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-B9": 150.0
+      }
+     },
+     {
+      "name": "C9",
+      "center_mm": [
+       86.3,
+       56.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-C9": 150.0
+      }
+     },
+     {
+      "name": "D9",
+      "center_mm": [
+       86.3,
+       47.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-D9": 150.0
+      }
+     },
+     {
+      "name": "E9",
+      "center_mm": [
+       86.3,
+       38.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-E9": 150.0
+      }
+     },
+     {
+      "name": "F9",
+      "center_mm": [
+       86.3,
+       29.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-F9": 150.0
+      }
+     },
+     {
+      "name": "G9",
+      "center_mm": [
+       86.3,
+       20.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-G9": 150.0
+      }
+     },
+     {
+      "name": "H9",
+      "center_mm": [
+       86.3,
+       11.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-H9": 150.0
+      }
+     },
+     {
+      "name": "A10",
+      "center_mm": [
+       95.3,
+       74.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-A10": 150.0
+      }
+     },
+     {
+      "name": "B10",
+      "center_mm": [
+       95.3,
+       65.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-B10": 150.0
+      }
+     },
+     {
+      "name": "C10",
+      "center_mm": [
+       95.3,
+       56.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-C10": 150.0
+      }
+     },
+     {
+      "name": "D10",
+      "center_mm": [
+       95.3,
+       47.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-D10": 150.0
+      }
+     },
+     {
+      "name": "E10",
+      "center_mm": [
+       95.3,
+       38.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-E10": 150.0
+      }
+     },
+     {
+      "name": "F10",
+      "center_mm": [
+       95.3,
+       29.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-F10": 150.0
+      }
+     },
+     {
+      "name": "G10",
+      "center_mm": [
+       95.3,
+       20.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-G10": 150.0
+      }
+     },
+     {
+      "name": "H10",
+      "center_mm": [
+       95.3,
+       11.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-H10": 150.0
+      }
+     },
+     {
+      "name": "A11",
+      "center_mm": [
+       104.3,
+       74.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-A11": 150.0
+      }
+     },
+     {
+      "name": "B11",
+      "center_mm": [
+       104.3,
+       65.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-B11": 150.0
+      }
+     },
+     {
+      "name": "C11",
+      "center_mm": [
+       104.3,
+       56.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-C11": 150.0
+      }
+     },
+     {
+      "name": "D11",
+      "center_mm": [
+       104.3,
+       47.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-D11": 150.0
+      }
+     },
+     {
+      "name": "E11",
+      "center_mm": [
+       104.3,
+       38.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-E11": 150.0
+      }
+     },
+     {
+      "name": "F11",
+      "center_mm": [
+       104.3,
+       29.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-F11": 150.0
+      }
+     },
+     {
+      "name": "G11",
+      "center_mm": [
+       104.3,
+       20.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-G11": 150.0
+      }
+     },
+     {
+      "name": "H11",
+      "center_mm": [
+       104.3,
+       11.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-H11": 150.0
+      }
+     },
+     {
+      "name": "A12",
+      "center_mm": [
+       113.3,
+       74.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-A12": 150.0
+      }
+     },
+     {
+      "name": "B12",
+      "center_mm": [
+       113.3,
+       65.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-B12": 150.0
+      }
+     },
+     {
+      "name": "C12",
+      "center_mm": [
+       113.3,
+       56.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-C12": 150.0
+      }
+     },
+     {
+      "name": "D12",
+      "center_mm": [
+       113.3,
+       47.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-D12": 150.0
+      }
+     },
+     {
+      "name": "E12",
+      "center_mm": [
+       113.3,
+       38.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-E12": 150.0
+      }
+     },
+     {
+      "name": "F12",
+      "center_mm": [
+       113.3,
+       29.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-F12": 150.0
+      }
+     },
+     {
+      "name": "G12",
+      "center_mm": [
+       113.3,
+       20.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-G12": 150.0
+      }
+     },
+     {
+      "name": "H12",
+      "center_mm": [
+       113.3,
+       11.4
+      ],
+      "radius_mm": 4.25,
+      "bottom_z_mm": 3.1,
+      "area_mm2": 56.745,
+      "capacity_microliters": 500.0,
+      "volume_microliters": 150.0,
+      "components_microliters": {
+       "sample-H12": 150.0
+      }
+     }
+    ],
+    "bottom_thickness_mm": 3.1
+   },
+   {
+    "name": "target",
+    "origin_mm": [
+     104.0,
+     263.5,
+     182.535
+    ],
+    "yaw_degrees": 0.0,
+    "size_mm": [
+     127.76,
+     85.48,
+     14.4
+    ],
+    "wells": [
+     {
+      "name": "A1",
+      "center_mm": [
+       14.38,
+       74.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "B1",
+      "center_mm": [
+       14.38,
+       65.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "C1",
+      "center_mm": [
+       14.38,
+       56.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "D1",
+      "center_mm": [
+       14.38,
+       47.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "E1",
+      "center_mm": [
+       14.38,
+       38.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "F1",
+      "center_mm": [
+       14.38,
+       29.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "G1",
+      "center_mm": [
+       14.38,
+       20.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "H1",
+      "center_mm": [
+       14.38,
+       11.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "A2",
+      "center_mm": [
+       23.38,
+       74.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "B2",
+      "center_mm": [
+       23.38,
+       65.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "C2",
+      "center_mm": [
+       23.38,
+       56.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "D2",
+      "center_mm": [
+       23.38,
+       47.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "E2",
+      "center_mm": [
+       23.38,
+       38.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "F2",
+      "center_mm": [
+       23.38,
+       29.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "G2",
+      "center_mm": [
+       23.38,
+       20.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "H2",
+      "center_mm": [
+       23.38,
+       11.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "A3",
+      "center_mm": [
+       32.38,
+       74.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "B3",
+      "center_mm": [
+       32.38,
+       65.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "C3",
+      "center_mm": [
+       32.38,
+       56.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "D3",
+      "center_mm": [
+       32.38,
+       47.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "E3",
+      "center_mm": [
+       32.38,
+       38.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "F3",
+      "center_mm": [
+       32.38,
+       29.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "G3",
+      "center_mm": [
+       32.38,
+       20.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "H3",
+      "center_mm": [
+       32.38,
+       11.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "A4",
+      "center_mm": [
+       41.38,
+       74.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "B4",
+      "center_mm": [
+       41.38,
+       65.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "C4",
+      "center_mm": [
+       41.38,
+       56.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "D4",
+      "center_mm": [
+       41.38,
+       47.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "E4",
+      "center_mm": [
+       41.38,
+       38.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "F4",
+      "center_mm": [
+       41.38,
+       29.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "G4",
+      "center_mm": [
+       41.38,
+       20.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "H4",
+      "center_mm": [
+       41.38,
+       11.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "A5",
+      "center_mm": [
+       50.38,
+       74.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "B5",
+      "center_mm": [
+       50.38,
+       65.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "C5",
+      "center_mm": [
+       50.38,
+       56.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "D5",
+      "center_mm": [
+       50.38,
+       47.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "E5",
+      "center_mm": [
+       50.38,
+       38.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "F5",
+      "center_mm": [
+       50.38,
+       29.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "G5",
+      "center_mm": [
+       50.38,
+       20.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "H5",
+      "center_mm": [
+       50.38,
+       11.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "A6",
+      "center_mm": [
+       59.38,
+       74.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "B6",
+      "center_mm": [
+       59.38,
+       65.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "C6",
+      "center_mm": [
+       59.38,
+       56.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "D6",
+      "center_mm": [
+       59.38,
+       47.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "E6",
+      "center_mm": [
+       59.38,
+       38.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "F6",
+      "center_mm": [
+       59.38,
+       29.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "G6",
+      "center_mm": [
+       59.38,
+       20.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "H6",
+      "center_mm": [
+       59.38,
+       11.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "A7",
+      "center_mm": [
+       68.38,
+       74.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "B7",
+      "center_mm": [
+       68.38,
+       65.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "C7",
+      "center_mm": [
+       68.38,
+       56.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "D7",
+      "center_mm": [
+       68.38,
+       47.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "E7",
+      "center_mm": [
+       68.38,
+       38.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "F7",
+      "center_mm": [
+       68.38,
+       29.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "G7",
+      "center_mm": [
+       68.38,
+       20.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "H7",
+      "center_mm": [
+       68.38,
+       11.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "A8",
+      "center_mm": [
+       77.38,
+       74.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "B8",
+      "center_mm": [
+       77.38,
+       65.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "C8",
+      "center_mm": [
+       77.38,
+       56.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "D8",
+      "center_mm": [
+       77.38,
+       47.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "E8",
+      "center_mm": [
+       77.38,
+       38.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "F8",
+      "center_mm": [
+       77.38,
+       29.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "G8",
+      "center_mm": [
+       77.38,
+       20.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "H8",
+      "center_mm": [
+       77.38,
+       11.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "A9",
+      "center_mm": [
+       86.38,
+       74.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "B9",
+      "center_mm": [
+       86.38,
+       65.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "C9",
+      "center_mm": [
+       86.38,
+       56.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "D9",
+      "center_mm": [
+       86.38,
+       47.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "E9",
+      "center_mm": [
+       86.38,
+       38.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "F9",
+      "center_mm": [
+       86.38,
+       29.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "G9",
+      "center_mm": [
+       86.38,
+       20.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "H9",
+      "center_mm": [
+       86.38,
+       11.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "A10",
+      "center_mm": [
+       95.38,
+       74.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "B10",
+      "center_mm": [
+       95.38,
+       65.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "C10",
+      "center_mm": [
+       95.38,
+       56.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "D10",
+      "center_mm": [
+       95.38,
+       47.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "E10",
+      "center_mm": [
+       95.38,
+       38.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "F10",
+      "center_mm": [
+       95.38,
+       29.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "G10",
+      "center_mm": [
+       95.38,
+       20.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "H10",
+      "center_mm": [
+       95.38,
+       11.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "A11",
+      "center_mm": [
+       104.38,
+       74.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "B11",
+      "center_mm": [
+       104.38,
+       65.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "C11",
+      "center_mm": [
+       104.38,
+       56.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "D11",
+      "center_mm": [
+       104.38,
+       47.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "E11",
+      "center_mm": [
+       104.38,
+       38.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "F11",
+      "center_mm": [
+       104.38,
+       29.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "G11",
+      "center_mm": [
+       104.38,
+       20.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "H11",
+      "center_mm": [
+       104.38,
+       11.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "A12",
+      "center_mm": [
+       113.38,
+       74.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "B12",
+      "center_mm": [
+       113.38,
+       65.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "C12",
+      "center_mm": [
+       113.38,
+       56.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "D12",
+      "center_mm": [
+       113.38,
+       47.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "E12",
+      "center_mm": [
+       113.38,
+       38.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "F12",
+      "center_mm": [
+       113.38,
+       29.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "G12",
+      "center_mm": [
+       113.38,
+       20.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     },
+     {
+      "name": "H12",
+      "center_mm": [
+       113.38,
+       11.24
+      ],
+      "radius_mm": 3.48,
+      "bottom_z_mm": 3.5,
+      "area_mm2": 38.0459,
+      "capacity_microliters": 392.0,
+      "volume_microliters": 30.0,
+      "components_microliters": {
+       "buffer": 30.0
+      }
+     }
+    ],
+    "bottom_thickness_mm": 3.5,
+    "seating_overlaps_mm": {
+     "magnet": 3.365,
+     "plate_carrier": 3.615
+    }
+   }
+  ],
+  "tip_racks": [
+   {
+    "name": "tips_50_a",
+    "tip_spec": {
+     "filtered": true,
+     "length_mm": 42.4,
+     "capacity_microliters": 60.0,
+     "collar": 2,
+     "pickup": 0
+    },
+    "fitting_stroke_mm": 8.0,
+    "nest": "tip_carrier/1",
+    "size_mm": [
+     122.4,
+     82.6,
+     20.0
+    ],
+    "tip_origin_mm": [
+     11.7,
+     72.8,
+     10.0
+    ],
+    "tip_pitch_mm": 9.0,
+    "tip_diameter_mm": 8.2,
+    "tip_bottom_z_mm": -40.4
+   },
+   {
+    "name": "tips_50_b",
+    "tip_spec": {
+     "filtered": true,
+     "length_mm": 42.4,
+     "capacity_microliters": 60.0,
+     "collar": 2,
+     "pickup": 0
+    },
+    "fitting_stroke_mm": 8.0,
+    "nest": "tip_carrier/2",
+    "size_mm": [
+     122.4,
+     82.6,
+     20.0
+    ],
+    "tip_origin_mm": [
+     11.7,
+     72.8,
+     10.0
+    ],
+    "tip_pitch_mm": 9.0,
+    "tip_diameter_mm": 8.2,
+    "tip_bottom_z_mm": -40.4
+   },
+   {
+    "name": "tips_1000",
+    "tip_spec": {
+     "filtered": true,
+     "length_mm": 87.1,
+     "capacity_microliters": 1250.0,
+     "collar": 3,
+     "pickup": 0
+    },
+    "fitting_stroke_mm": 10.0,
+    "nest": "tip_carrier/3",
+    "size_mm": [
+     122.4,
+     82.6,
+     20.0
+    ],
+    "tip_origin_mm": [
+     11.7,
+     72.8,
+     11.6
+    ],
+    "tip_pitch_mm": 9.0,
+    "tip_diameter_mm": 8.2,
+    "tip_bottom_z_mm": -83.5
+   }
+  ],
+  "modules": [
+   {
+    "name": "magnet",
+    "type": "plate_magnet",
+    "mount": "plate_carrier/5",
+    "nest": "magnet/1",
+    "geometry": {
+     "bodies": [
+      {
+       "min": [
+        -3.385,
+        -3.45,
+        -29.8
+       ],
+       "max": [
+        130.985,
+        88.75,
+        0.0
+       ]
+      },
+      {
+       "min": [
+        -3.385,
+        -3.45,
+        -29.8
+       ],
+       "max": [
+        9.8,
+        10.24,
+        5.33
+       ]
+      },
+      {
+       "min": [
+        -3.385,
+        75.06,
+        -29.8
+       ],
+       "max": [
+        9.8,
+        88.75,
+        5.33
+       ]
+      },
+      {
+       "min": [
+        117.8,
+        -3.45,
+        -29.8
+       ],
+       "max": [
+        130.985,
+        10.24,
+        5.33
+       ]
+      },
+      {
+       "min": [
+        117.8,
+        75.06,
+        -29.8
+       ],
+       "max": [
+        130.985,
+        88.75,
+        5.33
+       ]
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "world": {
+  "obstacles": [
+   {
+    "name": "furniture 1",
+    "min": [
+     623.5,
+     65.0,
+     108.0
+    ],
+    "max": [
+     769.7,
+     168.6,
+     195.0
+    ]
+   },
+   {
+    "name": "furniture 2",
+    "min": [
+     623.5,
+     185.0,
+     108.0
+    ],
+    "max": [
+     769.7,
+     288.6,
+     225.0
+    ]
+   },
+   {
+    "name": "furniture 3",
+    "min": [
+     623.5,
+     305.0,
+     108.0
+    ],
+    "max": [
+     769.7,
+     408.6,
+     182.11
+    ]
+   },
+   {
+    "name": "furniture 4",
+    "min": [
+     623.5,
+     425.0,
+     108.0
+    ],
+    "max": [
+     769.7,
+     528.6,
+     182.11
+    ]
+   },
+   {
+    "name": "furniture 5",
+    "min": [
+     -115.1,
+     279.96,
+     100.0
+    ],
+    "max": [
+     41.0,
+     544.86,
+     192.1
+    ]
+   },
+   {
+    "name": "furniture 6",
+    "min": [
+     -98.1,
+     415.8,
+     197.0
+    ],
+    "max": [
+     24.0,
+     544.86,
+     222.51
+    ]
+   },
+   {
+    "name": "furniture 7",
+    "min": [
+     -115.1,
+     296.96,
+     197.0
+    ],
+    "max": [
+     41.0,
+     311.8,
+     222.71
+    ]
+   }
+  ]
+ },
+ "seat_contacts": [
+  {
+   "nest": "24/1/adapter",
+   "support": [
+    "furniture 1"
+   ],
+   "gripper": []
+  },
+  {
+   "nest": "24/4/adapter/1",
+   "support": [
+    "furniture 4",
+    "carrier: module_carrier"
+   ],
+   "gripper": []
+  },
+  {
+   "nest": "24/3/adapter/1",
+   "support": [
+    "furniture 3",
+    "carrier: module_carrier"
+   ],
+   "gripper": []
+  },
+  {
+   "nest": "L1/1",
+   "support": [
+    "furniture 5"
+   ],
+   "gripper": [
+    "furniture 6",
+    "furniture 7"
+   ]
+  }
+ ],
+ "speedrun": {
+  "iswap_templates": [],
+  "tips": {
+   "tips_50_a": {
+    "nest": "tip_carrier/1",
+    "volume_ul": 50,
+    "define": "C0TTtt02tf1tl0424tv00600tg2tu0",
+    "a1_mm": [
+     410.4,
+     145.8
+    ],
+    "pitch_mm": 9.0,
+    "top_z_mm": 224.95,
+    "stroke_mm": 8.0
+   },
+   "tips_50_b": {
+    "nest": "tip_carrier/2",
+    "volume_ul": 50,
+    "define": "C0TTtt02tf1tl0424tv00600tg2tu0",
+    "a1_mm": [
+     410.4,
+     241.8
+    ],
+    "pitch_mm": 9.0,
+    "top_z_mm": 224.95,
+    "stroke_mm": 8.0
+   },
+   "tips_1000": {
+    "nest": "tip_carrier/3",
+    "volume_ul": 1000,
+    "define": "C0TTtt01tf1tl0871tv12500tg3tu0",
+    "a1_mm": [
+     410.4,
+     337.8
+    ],
+    "pitch_mm": 9.0,
+    "top_z_mm": 226.55,
+    "stroke_mm": 10.0
+   }
+  },
+  "waste": {
+   "x_mm": 800.0,
+   "y_mm": [
+    405.0,
+    378.2,
+    351.4,
+    324.6,
+    297.8,
+    271.0,
+    244.2,
+    217.5
+   ],
+   "top_z_mm": 197.0,
+   "bottom_z_mm": 187.0
+  }
+ }
+}

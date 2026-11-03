@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hamilton Speedrun - C5R</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="kit">
+      <header>
+        <img src="c5r.svg" alt="C5R">
+        <span class="meta">Hamilton Speedrun</span>
+      </header>
+      <h1>Run viewer</h1>
+      <section class="open">
+        <label class="button">Open trace<input id="files" type="file" multiple accept=".json,.jsonl"></label>
+        <div>
+          <p>Open these files from <code>hamilton/</code>:</p>
+          <ul class="files">
+            <li><code data-kind="deck">decks/serial-dilution.json</code> the protocol's deck</li>
+            <li><code data-kind="trace">trace.jsonl</code> the trace</li>
+            <li><code data-kind="result">report.json</code> optional</li>
+          </ul>
+          <p>Choose them one at a time, or drag them all onto the page.</p>
+          <p class="hint">python3 -m speedrun score protocols/serial-dilution.json program.txt --trace trace.jsonl --json &gt; report.json</p>
+          <p id="status" class="meta" aria-live="polite"></p>
+        </div>
+      </section>
+      <div id="viewer"></div>
+    </main>
+    <script src="hamilton.js"></script>
+  </body>
+</html>
